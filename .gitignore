@@ -1,0 +1,10 @@
+# Ignore .crf files
+*.crf
+# Ignore .o files
+*.o
+# Ignore .map files
+*.map
+# Ignore .htm files
+*.htm
+# Ignore .axf files
+*.axf
