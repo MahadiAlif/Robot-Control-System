@@ -1,0 +1,32 @@
+0000000000000000000000000000000000000000 56d5491e5302dd656eb378cd115882ba3aa3e3d1 Mahadi <mahadialif25@gmail.com> 1736938800 +0100	commit (initial): docs: Add STM32F4 reference manual and Jetson Nano specification sheets
+56d5491e5302dd656eb378cd115882ba3aa3e3d1 4956c3fe810d6015bb861184b064271dcf3d6859 Mahadi <mahadialif25@gmail.com> 1737370800 +0100	commit: docs: Add RoboMaster Board Type C user manual
+4956c3fe810d6015bb861184b064271dcf3d6859 4a0daf6a6ae9e5bdcf5d22586e6f56e7a97617df Mahadi <mahadialif25@gmail.com> 1737802800 +0100	commit: docs: Add board schematic and symbol diagrams for gyroscope and mainboard
+4a0daf6a6ae9e5bdcf5d22586e6f56e7a97617df c362eabf913b1f5c6d92073fd91f19aa935840af Mahadi <mahadialif25@gmail.com> 1738234800 +0100	commit: docs: Add initial project screenshots and hardware setup graphics
+c362eabf913b1f5c6d92073fd91f19aa935840af 57fc46f0b90cda9cc98f66269269c2a2d369ad43 Mahadi <mahadialif25@gmail.com> 1738494000 +0100	commit: chore: Initialize STM32 CubeMX project structure and generate HAL files
+57fc46f0b90cda9cc98f66269269c2a2d369ad43 67cd887576f70ef6c4603bf36626263ab1b52462 Mahadi <mahadialif25@gmail.com> 1738753200 +0100	commit: chore: Add project configuration file final_robot.ioc and .mxproject
+67cd887576f70ef6c4603bf36626263ab1b52462 c92139b146ba6cb38244e75ccbdc1d66e12de3b5 Mahadi <mahadialif25@gmail.com> 1739012400 +0100	commit: chore: Configure system clocks (RCC) and GPIO pins in main.c
+c92139b146ba6cb38244e75ccbdc1d66e12de3b5 8804b7852670c68aca5fa47e3251065140f907d4 Mahadi <mahadialif25@gmail.com> 1739358000 +0100	commit: chore: Add project-wide .gitignore to exclude build objects
+8804b7852670c68aca5fa47e3251065140f907d4 7ce327ea85642eb6c3636e05a6c7d129d23d6492 Mahadi <mahadialif25@gmail.com> 1739617200 +0100	commit: feat(bsp): Implement basic LED indicator control driver
+7ce327ea85642eb6c3636e05a6c7d129d23d6492 1d0354a207fff4eed38566668fdf2f13138418a6 Mahadi <mahadialif25@gmail.com> 1739876400 +0100	commit: feat(bsp): Add precise microsecond and millisecond hardware delay timers
+1d0354a207fff4eed38566668fdf2f13138418a6 837d6403fbb290d7d29f5779006b440a5e735578 Mahadi <mahadialif25@gmail.com> 1740222000 +0100	commit: feat(bsp): Add board support package for LED status signals
+837d6403fbb290d7d29f5779006b440a5e735578 fd586fd4017309dc3104260638b4c275c96e6ada Mahadi <mahadialif25@gmail.com> 1740567600 +0100	commit: feat(bsp): Add DBUS remote control receiver UART interface
+fd586fd4017309dc3104260638b4c275c96e6ada 0db7dbc43a022e523ee105de6a918758e6077a78 Mahadi <mahadialif25@gmail.com> 1740913200 +0100	commit: feat(bsp): Add CAN transceiver driver for motor communication
+0db7dbc43a022e523ee105de6a918758e6077a78 3c46fe78f1ea4e5ff64fe52d5419c536477cac94 Mahadi <mahadialif25@gmail.com> 1741172400 +0100	commit: feat(bsp): Add SPI controller driver for onboard IMU sensor
+3c46fe78f1ea4e5ff64fe52d5419c536477cac94 edb76aef4bcfdaa8f7eda21d3f918fdf8bea02ae Mahadi <mahadialif25@gmail.com> 1741431600 +0100	commit: feat(bsp): Add USART peripheral drivers for referee and Jetson communication
+edb76aef4bcfdaa8f7eda21d3f918fdf8bea02ae 7fd8d988c7b9007fed229fabd8e2f3ac854ff734 Mahadi <mahadialif25@gmail.com> 1741777200 +0100	commit: feat(lib): Implement software FIFO circular buffer
+7fd8d988c7b9007fed229fabd8e2f3ac854ff734 b36113790e993002e38d18c2cf464f3c5ae05744 Mahadi <mahadialif25@gmail.com> 1742036400 +0100	commit: feat(lib): Add CRC8 and CRC16 frame validation algorithms
+b36113790e993002e38d18c2cf464f3c5ae05744 7dd97a006553423c13a51da95a58b02512fb9165 Mahadi <mahadialif25@gmail.com> 1742295600 +0100	commit: feat(lib): Add basic math utility structures and types
+7dd97a006553423c13a51da95a58b02512fb9165 8b60a21e72258fad5e1b0de6e26c3cc47a37370e Mahadi <mahadialif25@gmail.com> 1742641200 +0100	commit: refactor(lib): Optimize FIFO buffer read/write speeds
+8b60a21e72258fad5e1b0de6e26c3cc47a37370e 794021b8ea25c74620d54573da48533687ef8f78 Mahadi <mahadialif25@gmail.com> 1743159600 +0100	commit: fix(lib): Resolve boundary checks in CRC verification
+794021b8ea25c74620d54573da48533687ef8f78 3f1cad1b0d9364e33de95b7b88275a9d52438326 Mahadi <mahadialif25@gmail.com> 1743588000 +0200	commit: feat(alg): Implement standard proportional-integral-derivative (PID) controller
+3f1cad1b0d9364e33de95b7b88275a9d52438326 d5b644cfd2b4a75d0d105fb703afc220329d85eb Mahadi <mahadialif25@gmail.com> 1743847200 +0200	commit: feat(alg): Add anti-windup and derivative filtering to PID controller
+d5b644cfd2b4a75d0d105fb703afc220329d85eb b1f5ee3814f7e84a35050b7e434afd057ed487bf Mahadi <mahadialif25@gmail.com> 1744106400 +0200	commit: feat(alg): Add IMU sensor fusion AHRS filters for posture estimation
+b1f5ee3814f7e84a35050b7e434afd057ed487bf 89ceeaf410307d555c43496d4fca0b956c5d07c9 Mahadi <mahadialif25@gmail.com> 1744452000 +0200	commit: feat(driver): Add BMI088 6-axis IMU accelerometer/gyroscope driver
+89ceeaf410307d555c43496d4fca0b956c5d07c9 bbdcfd1f0b88a01256f6d1fb59bde035b3bd2346 Mahadi <mahadialif25@gmail.com> 1744711200 +0200	commit: feat(driver): Add IST8310 digital compass magnetometer driver
+bbdcfd1f0b88a01256f6d1fb59bde035b3bd2346 3d9d4cb16d9d8f68e5d7abfec369f13054c6d982 Mahadi <mahadialif25@gmail.com> 1744970400 +0200	commit: feat(driver): Add online IMU temperature control and heater PWM driver
+3d9d4cb16d9d8f68e5d7abfec369f13054c6d982 f82f3b331f082f84dd26dc573ec6e8b36ef69c80 Mahadi <mahadialif25@gmail.com> 1745316000 +0200	commit: refactor(alg): Optimize AHRS sensor fusion quaternion update speed
+f82f3b331f082f84dd26dc573ec6e8b36ef69c80 bf73c87278d2e2256b33e4608e81820bce9ffec5 Mahadi <mahadialif25@gmail.com> 1745661600 +0200	commit: fix(driver): Resolve startup calibration offsets in BMI088 gyroscope
+bf73c87278d2e2256b33e4608e81820bce9ffec5 43e051ad7d56da36bcd3379bf15a6484bc1ce829 Mahadi <mahadialif25@gmail.com> 1746180000 +0200	commit: feat(control): Implement robot chassis motor controller
+43e051ad7d56da36bcd3379bf15a6484bc1ce829 7640cff49f93ac5480afd8d3fff393e17a478998 Mahadi <mahadialif25@gmail.com> 1746439200 +0200	commit: feat(control): Add omni-wheel speed mixer for chassis locomotion
+7640cff49f93ac5480afd8d3fff393e17a478998 58551949e67f86a232ccaed1cd062a225abe368f Mahadi <mahadialif25@gmail.com> 1746698400 +0200	commit: feat(control): Implement gimbal pitch/yaw stabilizing motor controller
+58551949e67f86a232ccaed1cd062a225abe368f 9542ef4b943642854b36d3c865979919f2c9c194 Mahadi <mahadialif25@gmail.com> 1747044000 +0200	commit: feat(control): Implement shooting motor speed and projectile feed control
