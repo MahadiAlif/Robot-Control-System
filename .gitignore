@@ -1,0 +1,26 @@
+# Keil MDK-ARM Build Artifacts
+**/MDK-ARM/can/
+**/MDK-ARM/RTE/
+**/MDK-ARM/DebugConfig/
+**/MDK-ARM/*.uvguix.*
+**/MDK-ARM/*.dep
+**/MDK-ARM/*.bak
+**/MDK-ARM/*.lst
+**/MDK-ARM/*.htm
+**/MDK-ARM/*.lnp
+**/MDK-ARM/*.map
+**/MDK-ARM/*.axf
+
+# Python cache files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code IDE Settings
+.vscode/
+
+# Temp & Archives
+*.zip
+*.tar.gz
+*.rar
