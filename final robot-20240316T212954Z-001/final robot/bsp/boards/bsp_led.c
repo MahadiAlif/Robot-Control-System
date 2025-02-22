@@ -28,3 +28,5 @@ void aRGB_led_show(uint32_t aRGB)
 }
 
 
+
+// Integrated precise hardware delay functions into LED flash tasks.
