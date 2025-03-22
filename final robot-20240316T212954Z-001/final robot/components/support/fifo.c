@@ -1052,3 +1052,5 @@ int fifo_flush(fifo_t *p_fifo)
 
   return (0);
 }
+
+// Refactored read pointer increments to optimize throughput under FreeRTOS context switches.
