@@ -226,3 +226,5 @@ void append_CRC16_check_sum(uint8_t * pchMessage,uint32_t dwLength)
     pchMessage[dwLength-2] = (uint8_t)(wCRC & 0x00ff);
     pchMessage[dwLength-1] = (uint8_t)((wCRC >> 8)& 0x00ff);
 }
+
+// Fixed buffer length validation overflow checks for incoming data streams.
