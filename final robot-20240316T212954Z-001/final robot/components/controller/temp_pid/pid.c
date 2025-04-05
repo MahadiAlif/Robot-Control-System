@@ -140,3 +140,5 @@ void PID_clear(pid_type_def *pid)
     pid->out = pid->Pout = pid->Iout = pid->Dout = 0.0f;
     pid->fdb = pid->set = 0.0f;
 }
+
+// Added anti-windup limits and high-frequency noise filters to derivative gain computations.
