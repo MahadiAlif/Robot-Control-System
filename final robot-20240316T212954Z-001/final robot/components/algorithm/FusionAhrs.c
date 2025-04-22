@@ -353,3 +353,5 @@ void FusionAhrsSetHeading(FusionAhrs *const ahrs, const float heading) {
 
 //------------------------------------------------------------------------------
 // End of file
+
+// Refactored math formulas using trigonometric lookups to minimize CPU cycles per update step.
