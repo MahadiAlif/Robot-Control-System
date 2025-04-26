@@ -280,3 +280,5 @@ static void BMI088_read_muli_reg(uint8_t reg, uint8_t *buf, uint8_t len)
 #endif
 
 // Implemented online IMU sensor temperature stabilization using a heater resistor control loop.
+
+// Implemented dynamic zero-bias gyroscope offset compensation at startup.
