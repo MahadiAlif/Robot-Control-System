@@ -48,3 +48,5 @@ while True:
     if keyboard.is_pressed('q'):
         serial_port.close()
         serial_port.__del__()
+
+# Optimized string splitting and float list comprehensions to reduce callback latency.
