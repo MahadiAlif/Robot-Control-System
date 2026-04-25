@@ -11,11 +11,15 @@
 **/MDK-ARM/*.map
 **/MDK-ARM/*.axf
 
-# Python cache files
+# Python Virtual Environments & Cache
+USART_env/
 **/__pycache__/
 *.pyc
 *.pyo
 *.pyd
+.venv/
+venv/
+env/
 
 # VS Code IDE Settings
 .vscode/
